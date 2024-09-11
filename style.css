@@ -1,0 +1,57 @@
+ /* Set background color and text styles */
+ body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #1e7cef;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #00796b;
+}
+
+th {
+    background-color: #b2dfdb;
+}
+
+/* Link styles */
+a:link, a:visited {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #004d40;
+    text-decoration: underline;
+}
+
+/* Image styles */
+img {
+    width: 100%;
+    height: 80vh;
+    margin-top: 20px;
+}
+.visit-url{
+    font-size: 20px;
+}
+.visit-url-link{
+    font-size: 18px;
+    font-weight: bold;
+}
+.visit-url-link:hover{
+    text-decoration: none;
+    color: darkorange;
+}
